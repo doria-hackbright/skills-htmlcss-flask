@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Crete+Round' rel='stylesheet' type='text/css'>
+        <link href="styles.css" rel="stylesheet">
+        <title>Skills-HTML-CSS</title>
+    </head>
+    <body>
+        <div class="container">
+        <div class="introduction">
+            <h1>BallooniCorp &mdash; Engineering Team Job Application</h1>
+            <p>
+                Are you a hustling, growth-hacking innovator? Well, then BallooniCorp is
+                looking for talented individuals (like you!) to join our rapidly expanding
+                on-demand e-vite dev studio! BallooniCorp is currently the industry leader
+                in online party app-vites, providing state-of-the art Flask web application
+                invites for the hottest events in Narnia, most notably Balloonicorn's Cupcake
+                and tea party!
+            </p>
+            <p>
+                As a <strong>Software Engineer</strong>, you'd be working on the research, design, development, and testing of BallooniCorp's proprietary Party App-vite&#153; algorithms and software packages. You're an awesome pair programmer and you are more fluent in Python than a Parselmouth (10 points to your house if you get this reference!).
+            </p>
+            <p>
+                As a <strong>QA Engineer</strong>, you'll oversee the end-to-end development process and ensure that BallooniCorp continues to be the industry gold standard in online party app-vite provider. You'll be an integral cog in the engineering team, ensuring that everyone is working towards creating the best Party App-vite&#153; each step of the way.
+            </p>
+            <p>
+                As a <strong>Product Manager</strong>, you'll champion the voice of the users! You'll oversee the development process and ensure that the engineering teams are creating the best features that users want. This includes customizing our Mel-Blocker&#153; and Potluck Declaration Forms&#153;, ensuring that users are getting the top-notch Party App-vite&#153; experience they signed up for!
+            </p>
+            <div class="instructions">
+                <h3>Instructions</h3>
+                If any of these sound like you, fill out the following form to apply!<br>
+                Just fill in your first and last name, desired salary, and the role you
+                want to apply for! <span class="sparkles">Good luck!</span>
+            </div><!--instructions-->
+        </div> <!--introduction-->
+        <div class="application-form">
+            <form action="/application" method="POST">
+                <label>
+                    First Name:
+                    <input type="text" name="firstname" placeholder="First Name">
+                </label><br>
+                <label>
+                    Last Name:
+                    <input type="text" name="lastname" placeholder="Last Name">
+                </label><br>
+                <label>
+                    Desired Salary (annual):
+                    $<input type="number" name="salary" min="0" max="1000000" value="0">
+                </label><br>
+                <label>
+                    Which role would you like to apply for today?
+                    <select name="job-type">
+                        <label><option value="Software Engineer">Software Engineer</option></label>
+                        <label><option value="QA Engineer">QA Engineer</option></label>
+                        <label><option value="Product Manager">Product Manager</option></label>
+                    </select>
+                </label><br>
+                <label><input type="submit" value="Take Your First Step Towards Awesomeness!">
+                </label>
+            </form>
+        </div> <!--application-form-->
+        </div> <!--container-->
+    </body>
+</html>

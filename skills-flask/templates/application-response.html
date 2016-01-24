@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Thank You from BallooniCorp!{% endblock %}
+
+
+{% block body %}
+    <p>
+        Thank you <strong>{{ first_name }} {{ last_name }}</strong>, for applying to be a <strong>{{ role }}</strong> at BallooniCorp. Your desired salary is <strong>${{ "{:,.2f}".format(salary) }}</strong> per annum.
+        <br>
+        Please note that only successful candidates will be contacted.
+        <h3>Good luck!</h3>
+    </p>
+{% endblock %}

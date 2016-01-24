@@ -1,0 +1,68 @@
+/*
+Base
+*/
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+    font-family: "Crete Round", serif;
+}
+
+h3 {
+    line-height: 0.25;
+}
+
+.container {
+    margin: 2em 8em;
+}
+
+
+
+/*
+Homepage
+*/
+
+.homepage {
+    width: 40%;
+    margin: 25% auto;
+    text-align: center;
+}
+
+.continue {
+    padding: 1.5em;
+    border-radius: 1em;
+    border: 2px solid #ff3399;
+    background-color: #FFFFFF;
+    font-family: "Crete Round", serif;
+    font-size: 1em;
+}
+
+
+
+/*
+Application Form
+*/
+
+.application-form {
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.instructions {
+    border: 1px solid #cccccc;
+    padding: 0.75em;
+}
+
+input, option, select {
+    background-color: #ffff66;
+    margin: 0.5em;
+    font-size: 0.75em;
+}
+
+input[type="text"][name="lastname"] {
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,56 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+    font-family: "Crete Round", serif;
+}
+
+h3 {
+    line-height: 0.25;
+}
+
+.container {
+    margin: 2em 8em;
+}
+
+.application-form {
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.instructions {
+    border: 1px solid #cccccc;
+    padding: 0.75em;
+}
+
+input, option, select {
+    background-color: #ffff66;
+    margin: 0.5em;
+    font-size: 0.75em;
+}
+
+input[type="text"][name="lastname"] {
+    font-weight: bold;
+}
+
+
+/*
+This code removes the spin-button on number inputs
+for Chrome and Mozilla. 
+Ultimately, I ended up keeping the spin-button
+inputs because it helped restrict the number inputs from
+0 to 1,000,000. However, visually, the spin-button was sort
+of confusing, so I played around with styling it away.
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+*/
